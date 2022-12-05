@@ -1,0 +1,228 @@
+/*Général*/
+body {
+    font-family: 'lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 65px 0 80px 0;
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+section .heading h2 {
+    text-transform: uppercase;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: #c2410c;
+    margin: 0 auto 20px;
+}
+
+/*NAVBAR*/
+.navbar {
+    background-color: #c2410c !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 40px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    background-color: white;
+    color: #c2410c !important;
+}
+
+/*About*/
+#about {
+    background-color: #c2410c;
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 0px auto 30px;
+}
+
+#about .heading h1 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 18px 50px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: white;
+    color: #c2410c;
+}
+
+/*SKILLS*/
+#skills .heading h2 {
+    color: #c2410c;
+
+}
+
+#skills .progress {
+    height: 60px;
+    margin: 30px 20px;
+}
+
+#skills .progress {
+    margin-bottom: 0px;
+}
+
+#skills .progress-bar {
+    background-color: #c2410c;
+    white-space: normal;
+}
+
+#skills .progress-bar h5 {
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom: 3px;
+}
+
+/*Education*/
+#education .heading h2 {
+    color: #c2410c;
+    margin: 15px 0px;
+}
+
+.education-bloc {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #e9ecef;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.education-bloc h5 {
+    color: #888;
+    font-size: 15px;
+}
+
+.education-bloc span {
+    font-size: 35px;
+}
+
+.education-bloc h3 {
+    color: #c2410c;
+    margin: 15px 0px;
+}
+
+.education-bloc h4 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/*portfolio*/
+#portfolio {
+    background-color: #c2410c;
+}
+
+#portfolio .heading h2 {
+    color: white;
+}
+
+#portfolio img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#portfolio img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+
+
+/*Coordonnées*/
+.divider.white {
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto 20px;
+}
+
+#coordonnées {
+    background-color: #c2410c;
+}
+
+#coordonnées .heading {
+    color: white;
+}
+
+#MyCarousel .carousel-item {
+    padding: 30px 30px 90px;
+}
+
+#MyCarousel .carousel-item h3 {
+    font-style: italic;
+
+}
+
+/*Footer*/
+footer {
+    background-color: #333;
+    padding: 20px 0 40px;
+}
+
+footer span {
+    color: #c2410c;
+    font-size: 25px;
+    line-height: 35px;
+
+}
+
+footer span:hover {
+    font-size: 30px;
+}
+
+footer h5 {
+    color: white;
+    font-weight: normal;
+}
