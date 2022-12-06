@@ -178,6 +178,10 @@ section .heading h2 {
     -webkit-filter: none;
 }
 
+#portfolio .col-lg-6 {
+    margin-bottom: 20px;
+}
+
 
 
 /*Coordonnées*/
