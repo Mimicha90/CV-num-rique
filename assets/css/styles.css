@@ -33,13 +33,13 @@ section .heading h2 {
 .divider {
     width: 100px;
     height: 2px;
-    background-color: #c2410c;
+    background-color: #EF9CDA;
     margin: 0 auto 20px;
 }
 
 /*NAVBAR*/
 .navbar {
-    background-color: #c2410c !important;
+    background-color: #EF9CDA !important;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
@@ -59,12 +59,12 @@ section .heading h2 {
 .nav-link.active,
 .nav-link:hover {
     background-color: white;
-    color: #c2410c !important;
+    color: #141B41 !important;
 }
 
 /*About*/
 #about {
-    background-color: #c2410c;
+    background-color: #EF9CDA;
 }
 
 .profile-picture {
@@ -93,12 +93,12 @@ section .heading h2 {
 
 .button1:hover {
     background: white;
-    color: #c2410c;
+    color: #EF9CDA;
 }
 
 /*SKILLS*/
 #skills .heading h2 {
-    color: #c2410c;
+    color: #141B41;
 
 }
 
@@ -112,7 +112,7 @@ section .heading h2 {
 }
 
 #skills .progress-bar {
-    background-color: #c2410c;
+    background-color: #141B41;
     white-space: normal;
 }
 
@@ -123,7 +123,7 @@ section .heading h2 {
 
 /*Education*/
 #education .heading h2 {
-    color: #c2410c;
+    color: #141B41;
     margin: 15px 0px;
 }
 
@@ -139,7 +139,8 @@ section .heading h2 {
 }
 
 .education-bloc h5 {
-    color: #888;
+    /*color: #888;*/
+    color: #EBEBD3;
     font-size: 15px;
 }
 
@@ -148,7 +149,7 @@ section .heading h2 {
 }
 
 .education-bloc h3 {
-    color: #c2410c;
+    color: #EF9CDA;
     margin: 15px 0px;
 }
 
@@ -159,11 +160,11 @@ section .heading h2 {
 
 /*portfolio*/
 #portfolio {
-    background-color: #c2410c;
+    background-color: #EF9CDA;
 }
 
 #portfolio .heading h2 {
-    color: white;
+    color: #141B41;
 }
 
 #portfolio img {
@@ -193,11 +194,11 @@ section .heading h2 {
 }
 
 #coordonnées {
-    background-color: #c2410c;
+    background-color: #EF9CDA;
 }
 
 #coordonnées .heading {
-    color: white;
+    color: #141B41;
 }
 
 #MyCarousel .carousel-item {
@@ -216,7 +217,7 @@ footer {
 }
 
 footer span {
-    color: #c2410c;
+    color: #EF9CDA;
     font-size: 25px;
     line-height: 35px;
 
