@@ -54,12 +54,42 @@ section .heading h2 {
 .nav-link {
     color: white;
     margin-right: 40px;
+    font-size: 22px;
 }
 
 .nav-link.active,
 .nav-link:hover {
     background-color: white;
     color: #141B41 !important;
+}
+
+
+
+.mail {
+    font-size: 35px;
+    color: #141B41;
+    text-transform: none;
+    cursor: pointer;
+}
+
+
+
+@keyframes myrotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mail:hover {
+
+    animation: myrotate 1.5s forwards;
+    color: #141B41;
+
+
 }
 
 /*About*/
@@ -71,6 +101,8 @@ section .heading h2 {
     text-align: center;
     margin: 0px auto 30px;
 }
+
+
 
 #about .heading h1 {
     color: white;
@@ -91,9 +123,10 @@ section .heading h2 {
     transition: all 0.3s ease-in 0s;
 }
 
+
 .button1:hover {
     background: white;
-    color: #EF9CDA;
+    color: #141B41;
 }
 
 /*SKILLS*/
