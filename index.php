@@ -1,3 +1,6 @@
+<?php
+require_once 'controllers/indexController.php';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -5,8 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -18,8 +20,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,9 +40,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#coordonnées">Coordonnées</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
                 </ul>
-                <a class="bi-envelope mail" target="_blank" href="mailto:meriem.safi90@gmail.com">
-                </a>
             </div>
         </div>
     </nav>
@@ -65,25 +66,20 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="progress">
-                        <span class="w-25"><img class="img-fluid text-center" src="assets/images/index.png"
-                                alt="html/css"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <span class="w-25"><img class="img-fluid text-center" src="assets/images/index.png" alt="html/css"></span>
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>HTML/CSS 85%</h5>
                         </div>
                     </div>
                     <div class="progress">
-                        <span class="w-25"><img src="assets/images/bootstrap.png" alt="bootstrap"
-                                class="img-fluid"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <span class="w-25"><img src="assets/images/bootstrap.png" alt="bootstrap" class="img-fluid"></span>
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>bootstrap 85%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="assets/images/JS.png" alt="javascript" class="h-85"></span>
-                        <div class=" progress-bar" role="progressbar" aria-label="Example with label"
-                            style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class=" progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                             <h5>javascript 75%</h5>
                         </div>
                     </div>
@@ -92,22 +88,19 @@
 
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/php.png" alt="php" class="h-75"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;"
-                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                             <h5>php 80%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/python.png" alt="python" class="h-45"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>python 85%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/shell.jpg" alt="powershell" class="h-85"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>powershell 85%</h5>
                         </div>
                     </div>
@@ -115,22 +108,19 @@
                 <div class="col-lg-6">
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/linux.png" alt="linux" class="h-100"></span>
-                        <div class=" progress-bar" role="progressbar" aria-label="Example with label"
-                            style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class=" progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>Administration systèmes linux/unix 85%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/linux.png" alt="linux" class="h-100"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>Gestion des comptes d'utilisateurs 85%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/linux.png" alt="linux" class="h-100"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>Gestion des volumes logiques 85%</h5>
                         </div>
                     </div>
@@ -139,22 +129,19 @@
                 <div class="col-lg-6">
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/linux.png" alt="linux" class="h-100"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;"
-                            aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
                             <h5>Administration à distance ssh 75%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/linux.png" alt="linux" class="h-100"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>DNS/DHCP 85%</h5>
                         </div>
                     </div>
                     <div class="progress">
                         <span class="w-25"><img src="./assets/images/linux.png" alt="linux" class="h-100"></span>
-                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;"
-                            aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                             <h5>création et gestion d'une machine virtuelle 85%</h5>
                         </div>
                     </div>
@@ -258,17 +245,13 @@
             </div>
             <div id="MyCarousel" class="carousel carousel-dark slide text-center" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <a target="_blank" href="https://www.linkedin.com/in/meriem-safi-b29759256/"><img
-                                src="./assets/images/linkedin.jpeg" alt="linkedin">
+                        <a target="_blank" href="https://www.linkedin.com/in/meriem-safi-b29759256/"><img src="./assets/images/linkedin.jpeg" alt="linkedin">
                         </a>
 
                     </div>
@@ -292,6 +275,44 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+            <div class="divider"></div>
+            <div class="heading">
+                <h2>Contact</h2>
+            </div>
+            <?php if (isset($_POST['submit']) && count($formErrors) == 0) { ?>
+                <p>Le formulaire a bien été enregistré.</p>
+            <?php } else { ?>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <form id="form" action="index.php#contact" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="lastname">Nom </label>
+                                    <input type="text" name="lastname" id="lastname" placeholder="votre nom" value="<?= @$_POST['lastname'] ?>" class="<?= !isset($formErrors['lastname']) ?: 'formErrors' ?>">
+                                    <p class="errors"><?= @$formErrors['lastname'] ?></p>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email">Email </label>
+                                    <input type="email" name="email" placeholder="votre email" id="email" value="<?= @$_POST['email'] ?>" class="<?= !isset($formErrors['email']) ?: 'formErrors' ?>">
+                                    <p class="errors"><?= @$formErrors['email'] ?></p>
+
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message </label>
+                                    <textarea name="message" id="message" rows="4" class="form-control" placeholder="Votre message.." value="<?= @$_POST['message'] ?>" class="<?= !isset($formErrors['message']) ?: 'formErrors' ?>"></textarea>
+                                    <p class="errors"><?= @$formErrors['message'] ?></p>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" name="submit" id="submit" value="Envoyer">
+                                </div>
+                                <p class="thanks">Votre message a bien été envoyé merci!</p>
+                        </form>
+                    <?php } ?>
+                    </div>
+    </section>
 
     <footer class="text-center">
         <a href="#about"><span class="bi-chevron-up"></span></a>
@@ -299,9 +320,7 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>

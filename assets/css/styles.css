@@ -243,6 +243,53 @@ section .heading h2 {
 
 }
 
+/*Contact*/
+#contact .heading {
+    color: #141B41;
+}
+
+#form {
+    font-size: 25px;
+    background: #141B41;
+    padding: 40px;
+    border-radius: 0 0 300px 0;
+    color: #EF9CDA;
+}
+
+.errors {
+    padding: 5px;
+    color: #A06B9A;
+}
+
+input {
+    border-radius: 25px;
+}
+
+#submit {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f7e6df;
+    color: #141B41;
+    border: 1px solid #141B41;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1rem;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+#submit:hover {
+    background-color: #EF9CDA;
+    color: #ffffff;
+}
+
 /*Footer*/
 footer {
     background-color: #333;
