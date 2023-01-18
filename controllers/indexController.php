@@ -1,5 +1,4 @@
 <?php
-var_dump($_POST);
 $formErrors = [];
 $regex = [
     'lastname' => '/^[A-Za-z \-\'áàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ]{1,30}$/',
@@ -27,6 +26,9 @@ if (isset($_POST['submit'])) {
     if (!empty($_POST['message'])) {
         $message = $_POST['message'];
     } else {
-        $formErrors['message'] = 'Veuillez m\écrire un message';
+        $formErrors['message'] = 'Veuillez m\'écrire un message';
+    }
+
+    if (count($formErrors) == 0) {
     }
 }
