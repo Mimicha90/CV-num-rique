@@ -298,6 +298,19 @@ input {
 footer {
     background-color: #333;
     padding: 20px 0 40px;
+
+}
+
+.ABOUT {
+    display: flex;
+    flex-direction: column;
+
+    color: #e9ecef;
+}
+
+.qr {
+    width: 70px;
+
 }
 
 footer span {
@@ -309,6 +322,10 @@ footer span {
 
 footer span:hover {
     font-size: 30px;
+}
+
+footer div h4 {
+    text-transform: uppercase;
 }
 
 footer h5 {
