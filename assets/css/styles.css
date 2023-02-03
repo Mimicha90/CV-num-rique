@@ -290,6 +290,10 @@ input {
     color: #ffffff;
 }
 
+.error {
+    border: red;
+}
+
 /*Footer*/
 footer {
     background-color: #333;
