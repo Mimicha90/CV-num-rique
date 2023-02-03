@@ -34,7 +34,7 @@ form.addEventListener("submit", function (e) {
         To: 'meriem.safi90@gmail.com',
         From: "meryoumatou@hotmail.fr",
         Subject: "mail CV",
-        Body: "De:" + email.value + message.value,
+        Body: "De:" + email.value + "   " + message.value,
     }).then(
         message => alert(message)
     )
