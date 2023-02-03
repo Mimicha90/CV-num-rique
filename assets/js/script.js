@@ -9,21 +9,28 @@ const regexMail = new RegExp('^[a-zA-Z0-9.-]+[@]{1}[a-zA-Z0-9.-]+[.]{1}[a-z]{2,1
 const regname = new RegExp('^[a-zA-A]');
 const regMessage = new RegExp('^.{1,500}$');
 form.addEventListener("submit", function (e) {
+    let hasError = false;
     e.preventDefault();
-    // let hasError = false;
     const validateInputs = () => {
         if (namee.value === "" || email.value === "" || message.value === "") {
             if (namee.value === "" || !regname.test(namee.value)) {
+                hasError = true;
                 namee.style.borderColor = "red";
                 nameError.textContent = "veuillez saisir un nom";
+            } else {
+                namee.style.borderColor = "green";
             }
             if (email.value === "" || !regexMail.match(message.value)) {
                 email.style.borderColor = "red";
                 mailError.textContent = "veuillez saisir un email";
+            } else {
+                email.style.borderColor = "green";
             }
             if (message.value === "" || !regMessage.match(message.value)) {
                 message.style.borderColor = "red";
                 messageError.textContent = "veuillez ecire un message";
+            } else {
+                message.style.borderColor = "green";
             }
         } else {
             form.submit();
@@ -39,4 +46,5 @@ form.addEventListener("submit", function (e) {
         message => alert(message)
     )
 })
+validateInputs();
 
